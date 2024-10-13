@@ -1,0 +1,33 @@
+.footer {
+  padding: 10px;
+  background-color: #262b4c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  height: 60px;
+  .privacy-policy {
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 12px;
+    }
+  }
+  .short-summary {
+    color: white;
+    width: 35%;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: space-around;
+    svg {
+      color: white;
+    }
+  }
+}
