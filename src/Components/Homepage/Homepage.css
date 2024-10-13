@@ -21,7 +21,7 @@
       letter-spacing: 2px;
       text-align: center;
       width: 70%;
-      padding-top: 15px;
+      padding-top: 37px;
       padding-bottom: 37px;
     }
     .button-container {
@@ -31,7 +31,7 @@
       align-items: center;
       gap: 115px;
       padding-bottom: 57px;
-      button {
+      a {
         background-color: white;
         color: black;
         font-family: "Poppins", sans-serif;
@@ -48,16 +48,20 @@
         -ms-transition: 0.08s ease-in;
         -moz-transition: 0.08s ease-in;
         -webkit-transition: 0.08s ease-in;
+        text-decoration: none;
       }
     }
   }
 }
 
-.fill:hover{
+.fill:hover {
+  color: white !important;
+}
+button:hover {
   color: white;
 }
 
-.fill:before{
+.fill:before {
   content: "";
   position: absolute;
   background: black;
@@ -66,9 +70,9 @@
   right: 100%;
   top: 0;
   z-index: -1;
-  -webkit-transition: right 0.09s ease-in;
+  transition: right 0.09s ease-in;
 }
 
-.fill:hover:before{
+.fill:hover:before {
   right: 0;
 }
