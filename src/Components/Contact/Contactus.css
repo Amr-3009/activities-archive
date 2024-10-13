@@ -131,7 +131,7 @@
     height: auto;
     gap: 20px;
     background-image: none;
-    background-color: #f4f0db;
+    /* background-color: #3F4775; */
     padding: 20px;
     .contact-container,
     .social-media {
