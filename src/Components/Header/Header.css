@@ -19,3 +19,17 @@
 a:hover {
   color: white;
 }
+
+/* Media query for screen sizes 450px and lower */
+@media (max-width: 450px) {
+  .header {
+    flex-direction: column;
+    padding: 5px;
+    font-size: 12px;
+    height: auto;
+    text-align: center;
+  }
+  .header a {
+    font-size: 12px;
+  }
+}

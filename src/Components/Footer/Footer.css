@@ -31,3 +31,14 @@
     }
   }
 }
+
+@media (max-width: 450px) {
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    .short-summary {
+      width: 100%;
+    }
+  }
+}

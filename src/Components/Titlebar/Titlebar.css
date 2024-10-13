@@ -14,3 +14,18 @@
     letter-spacing: 5%;
   }
 }
+
+@media (max-width: 450px) {
+  .titlebar {
+    gap: 5px;
+    height: 95px;
+    padding: 20px;
+
+    p {
+      font-size: 18px;
+      text-align: center;
+      line-height: normal;
+      letter-spacing: 0%;
+    }
+  }
+}

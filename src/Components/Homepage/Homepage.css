@@ -76,3 +76,33 @@ button:hover {
 .fill:hover:before {
   right: 0;
 }
+
+@media screen and (max-width: 450px) {
+  .home-body {
+    height: auto;
+    padding: 20px;
+    height: calc(100vh - (60px + 24px + 110px));
+    background-position: center;
+    background-size: cover;
+    .hero-section {
+      .intro-text {
+        font-size: 18px;
+        width: 90%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .button-container {
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 40px;
+        a {
+          font-size: 18px;
+          padding: 10px;
+          width: 300px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  
+}
