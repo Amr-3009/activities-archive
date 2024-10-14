@@ -10,6 +10,7 @@ import ParentsA from "./Routes/ParentsA";
 import CultureA from "./Routes/CultureA";
 import HonoringA from "./Routes/HonoringA";
 import EquesTripA from "./Routes/EquesTripA";
+import FootballA from "./Routes/FootballA";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           element={<HonoringA />}
         />
         <Route path="/activities-archive/archive/eques-trip" element={<EquesTripA />} />
+        <Route path="/activities-archive/archive/football-olympic-1" element={<FootballA />} />
       </Routes>
       <Footer />
     </div>
