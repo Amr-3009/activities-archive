@@ -7,6 +7,8 @@ import Home from "./Routes/Home";
 import Contact from "./Routes/Contact";
 import Archive from "./Routes/Archive";
 import ParentsA from "./Routes/ParentsA";
+import CultureA from "./Routes/CultureA";
+import HonoringA from "./Routes/HonoringA";
 
 function App() {
   return (
@@ -21,6 +23,14 @@ function App() {
         <Route
           path="/activities-archive/archive/parent-meeting-1"
           element={<ParentsA />}
+        />
+        <Route
+          path="/activities-archive/archive/culture-day-1"
+          element={<CultureA />}
+        />
+        <Route
+          path="/activities-archive/archive/honoring-students-1"
+          element={<HonoringA />}
         />
       </Routes>
       <Footer />
