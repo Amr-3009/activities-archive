@@ -1,0 +1,46 @@
+.archive-body {
+  background-image: url("../../assets/images/background-image.png");
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  .archive-content {
+    background-color: rgba(38, 43, 76, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    .activity-card {
+      background-color: white;
+      border-radius: 20px;
+      .activity-info {
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-weight: 400;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        h2,
+        h3 {
+          font-weight: 400;
+        }
+        a {
+          text-decoration: none;
+          color: rgb(255, 0, 0);
+        }
+        a:hover {
+          color: #262b4c;
+        }
+      }
+    }
+  }
+}
