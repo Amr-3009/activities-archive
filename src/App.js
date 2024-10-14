@@ -9,6 +9,7 @@ import Archive from "./Routes/Archive";
 import ParentsA from "./Routes/ParentsA";
 import CultureA from "./Routes/CultureA";
 import HonoringA from "./Routes/HonoringA";
+import EquesTripA from "./Routes/EquesTripA";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           path="/activities-archive/archive/honoring-students-1"
           element={<HonoringA />}
         />
+        <Route path="/activities-archive/archive/eques-trip" element={<EquesTripA />} />
       </Routes>
       <Footer />
     </div>
